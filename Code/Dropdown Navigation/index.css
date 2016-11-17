@@ -1,0 +1,49 @@
+#DropdownMenu
+{
+    background-color: #ECECEC;
+    
+    border-top-color: #000000;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.open>#DropdownMenu
+{
+    display: block;
+}
+
+#navbarResponsive
+{
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#InnerDropdown
+{
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#InnerDropdown>.row
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media all and (min-width: 992px)
+{
+    #DropdownMenu
+    {
+        display: none;
+    }
+}
+
+@media all and (max-width: 991px)
+{
+    #DropdownButtonLi
+    {
+        display: none;
+    }
+}
